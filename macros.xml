@@ -1,0 +1,18 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="reformat">
+      <action id="ReformatCode" />
+      <action id="PhpGeneratePhpDocBlocks" />
+    </macro>
+    <macro name="sort namespace">
+      <action id="Find" />
+      <typing text-keycode="85:0;83:0;69:0">use</typing>
+      <shortuct text="ESCAPE" />
+      <action id="SelectAllOccurrences" />
+      <action id="EditorLineEndWithSelection" />
+      <action id="StringManipulation.Sort" />
+      <action id="GotoAction" />
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>

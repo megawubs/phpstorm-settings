@@ -1,0 +1,16 @@
+<templateSet group="CODE14">
+  <template name="input" value="&lt;div class=&quot;form-group $colums$ @if($errors-&gt;has('$name$')){{'has-error'}}@endif&quot;&gt;&#10;    &lt;label for=&quot;name&quot; class=&quot;control-label&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;$label$&quot;&#10;           value=&quot;{{ old('$name$', isset($entity$) ? $entity$-&gt;$name$ : '') }}&quot;&gt;&#10;    @if($errors-&gt;has('$name$'))&#10;        &lt;p class=&quot;help-block&quot;&gt;{{ $errors-&gt;first('$name$'') }}&lt;/p&gt;&#10;    @endif&#10;&lt;/div&gt;" description="Make a input field" toReformat="false" toShortenFQNames="true">
+    <variable name="colums" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="entity" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="select" value="&lt;div class=&quot;col-md-10&quot;&gt;&#10;    &lt;div class=&quot;form-group @if($errors-&gt;has('receiver')){{'has-error'}}@endif&quot;&gt;&#10;        &lt;label for=&quot;{{ $key }}&quot;&gt;{{ $receiverForm['label']  }}&lt;/label&gt;&#10;        &lt;select name=&quot;{{$key}}[]&quot; id=&quot;{{ $key }}&quot; class=&quot;form-control selectpicker&quot;&#10;                title=&quot;{{ $receiverForm['label']  }}&quot;&gt;&#10;            @foreach($items AS $item)&#10;                &lt;option value=&quot;{{ $receiver['value'] }}&quot;&gt;&#10;                    &#10;                &lt;/option&gt;&#10;            @endforeach&#10;        &lt;/select&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Make a select field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

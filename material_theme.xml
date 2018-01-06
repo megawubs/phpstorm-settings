@@ -1,0 +1,9 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="1.5.2.2" />
+    <option name="selectedTheme" value="ONE_DARK" />
+    <option name="isMaterialDesign" value="false" />
+    <option name="useProjectViewDecorators" value="false" />
+    <option name="tabsHeight" value="50" />
+  </component>
+</application>

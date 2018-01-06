@@ -1,0 +1,33 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="gulp" type="Bash" />
+      <mapping pattern="make" type="Bash" />
+      <mapping pattern="rollback" type="Bash" />
+      <mapping pattern="yarn" type="Bash" />
+      <mapping pattern="seed" type="Bash" />
+      <mapping pattern="putfiles" type="Bash" />
+      <mapping pattern="phpunit" type="Bash" />
+      <mapping pattern="php" type="Bash" />
+      <mapping pattern=".installed" type="PLAIN_TEXT" />
+      <mapping pattern="phpcs" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".dynamic_aliases" type="PLAIN_TEXT" />
+      <mapping pattern="archman" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping pattern="Brewfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env.docker" type="PLAIN_TEXT" />
+      <mapping pattern="addnode" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="LICENCE" type="PLAIN_TEXT" />
+      <mapping pattern=".env.ci" type="PLAIN_TEXT" />
+      <mapping ext="docker" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="deb" type="PLAIN_TEXT" />
+      <mapping pattern="accept-invite" type="PlantUML file" />
+      <mapping ext="ci" type="Docker file" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+    </extensionMap>
+  </component>
+</application>
