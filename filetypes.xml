@@ -11,18 +11,19 @@
       <mapping pattern="php" type="Bash" />
       <mapping pattern=".installed" type="PLAIN_TEXT" />
       <mapping pattern="phpcs" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".dynamic_aliases" type="PLAIN_TEXT" />
       <mapping pattern="archman" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern="Brewfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.docker" type="PLAIN_TEXT" />
       <mapping pattern="addnode" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.docker" type="PLAIN_TEXT" />
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern=".env.ci" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
+      <mapping ext="ci" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="deb" type="PLAIN_TEXT" />
       <mapping pattern="accept-invite" type="PlantUML file" />
