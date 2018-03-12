@@ -1,4 +1,13 @@
 <keymap version="1" name="Brams Keyboard Shortucts" parent="Mac OS X 10.5+">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
@@ -8,6 +17,7 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift f4" />
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -15,21 +25,34 @@
   <action id="EditorDuplicate" />
   <action id="EditorMatchBrace" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="meta alt p" />
+  <action id="Git.ResolveConflicts">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="c" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoRelated" />
   <action id="IntroduceParameter" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
-  <action id="Macro.reformat &amp; save + docblocs">
+  <action id="Macro.reformat">
     <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="Macro.sort namespace">
+    <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="f6" />
@@ -37,10 +60,19 @@
   </action>
   <action id="ParameterInfo" />
   <action id="PhpGeneratePhpDocBlocks">
-    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
+  </action>
+  <action id="PhpNewFile">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl f" />
+  </action>
+  <action id="PhpUnitNewTestFromClass">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
   </action>
   <action id="PlantUML.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl equals" />
@@ -49,6 +81,21 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="ReformatCode" />
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
+  </action>
+  <action id="SavaAs" />
   <action id="SaveAll" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -63,6 +110,10 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="StepInto" />
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -78,11 +129,21 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="ToggleFullScreen" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="XDebugger.CopyWatch" />
+  <action id="hg4idea.QFold" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
