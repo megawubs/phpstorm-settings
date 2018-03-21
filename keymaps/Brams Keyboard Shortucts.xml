@@ -12,6 +12,7 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChooseDebugConfiguration" />
   <action id="CompareTwoFiles" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -47,6 +48,9 @@
   <action id="IntroduceParameter" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
+  </action>
+  <action id="Macro.Full-Screen">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="Macro.reformat">
     <keyboard-shortcut first-keystroke="meta s" />
@@ -130,12 +134,17 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
-  <action id="ToggleFullScreen" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta f8" />
     <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.ReformatCommitMessage" />

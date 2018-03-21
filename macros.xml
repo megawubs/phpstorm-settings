@@ -14,5 +14,9 @@
       <action id="GotoAction" />
       <shortuct text="ENTER" />
     </macro>
+    <macro name="Full-Screen">
+      <action id="ToggleFullScreen" />
+      <action id="ToggleDistractionFreeMode" />
+    </macro>
   </component>
 </application>
