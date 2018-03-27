@@ -49,9 +49,6 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
-  <action id="Macro.Full-Screen">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
   <action id="Macro.reformat">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
@@ -135,6 +132,7 @@
   </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
