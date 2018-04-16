@@ -12,6 +12,9 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
@@ -30,6 +33,10 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="EditorMatchBrace" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
