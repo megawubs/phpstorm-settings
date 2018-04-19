@@ -57,7 +57,18 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="GotoRelated" />
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <mouse-shortcut keystroke="shift button2" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="IntroduceParameter" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
