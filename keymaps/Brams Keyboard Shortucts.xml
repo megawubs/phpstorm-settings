@@ -107,7 +107,9 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="PrevSplitter" />
-  <action id="ReformatCode" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="RerunFailedTests">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
